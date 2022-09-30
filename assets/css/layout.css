@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 10vh;
+}
+
+.body {
+    min-height: 83vh;
+}
+
+.c-sidebar {
+    min-height: 20vh;
+}
+
+.footer {
+    height: 8vh;
+}
+
+.show {
+    display: block;
+}
+
+.show-not {
+    display: none;
+}
+
+.c-sidebar {
+    display: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 60vw;
+        height: 10vw;
+    }    
+}
