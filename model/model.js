@@ -44,26 +44,48 @@ function AddScript(src, id, type = 'text/javascript') {
 
 
 
-function collapsible(el /* DOM object */,
-    id /* string */, template = null /* string */,
+function collapsible(el=null /* DOM object */,
+    id=null /* string */, template = null /* string */,
     path_script = null /* string */, id_script = null /* string */) {
-    if (path_script == null || id_script == null || template == null) {
-        pourData(`<div id="change">Không có dữ liệu</div>`)
-    } else {
-        AddScript(path_script, id_script);
-
-        console.log(el.childNodes[1].className)
-        if ($('div#' + id)[0].className.includes('show-not')) {
-            $('div#' + id).removeClass('show-not').addClass('show');
-            el.childNodes[1].className = 'fa fa-angle-down';
-        } else {
-            $('div#' + id).removeClass('show').addClass('show-not');
-            el.childNodes[1].className = 'fa fa-angle-right';
-        }
-
+    // console.log(el.parentElement.id)
+    if (el == null) {
         pourData(window[template])
+    } else {
+        if (path_script == null || id_script == null || template == null) {
+            pourData(`<div id="change">Không có dữ liệu</div>`)
+        } else {
+            AddScript(path_script, id_script);
+            collapsibleCloseUnactive(el.parentElement.id, id)
+            console.log(el.childNodes[1].className)
+            if ($('div#' + id)[0].className.includes('show-not')) {
+                $('div#' + id).removeClass('show-not').addClass('show');
+                el.childNodes[1].className = 'fa fa-angle-down';
+            } else {
+                $('div#' + id).removeClass('show').addClass('show-not');
+                el.childNodes[1].className = 'fa fa-angle-right';
+            }
+    
+            pourData(window[template])
+        }
     }
 }
+
+function collapsibleCloseUnactive(NumOrder, id) {
+    listEl = $('#'+'sidebar-li')[0].children;
+    // console.log(listEl['4'])
+    Object.values(listEl).forEach(element => {
+        if (element.id != NumOrder) {
+            // console.log(element.childNodes[1].childNodes[1].className)
+            element.childNodes[1].childNodes[1].className = 'fa fa-angle-right'
+            // console.log(element.childNodes[3].className)
+            element.childNodes[3].className = 'block show-not'
+        }
+    });
+}
+
+
+
+// collapsibleCloseUnactive(1)
 
 function pourData(dataAPI = null) {
     if (dataAPI == null) {

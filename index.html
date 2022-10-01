@@ -25,12 +25,14 @@
     <div class="body container-fluid">
         <div class="row">
             <div class="sidebar col-lg-3 mt-3">
-                <div id="sidebar" class="c-sidebar bg-primary rounded">
-                    <h5 class="text-white text-center pt-2">Nội dung</h5>
+                <div id="sidebar" class="c-sidebar bg-light rounded">
+                    <button class="btn btn-light w-100" onclick="collapsible(el=null, id=null, template='templateTC', path_script='./view/TableContent.js', id_script='TableContent_Script')">
+                        <h5 class="text-dark pt-2">Nội dung</h5>
+                    </button>
 
-                    <ul class="list-group">
-                        <li class="list-group-item bg-primary">
-                            <button class="btn btn-primary" onclick="collapsible(this, 'installInVEST', 'templateInstallInVEST', './view/installInVEST.js','Install_script')">
+                    <ul id="sidebar-li" class="list-group">
+                        <li id="1" class="list-group-item bg-light">
+                            <button class="btn btn-light" onclick="collapsible(this, 'installInVEST', 'templateInstallInVEST', './view/installInVEST.js','Install_script')">
                                 <i class="fa fa-angle-right"></i>
                                 Install InVEST
                             </button>
@@ -40,39 +42,50 @@
                                 <a href="#Step" class="text-white text-decoration-none">Các bước thực hiện</a> -->
                             </div>
                         </li>
-                        <li class="list-group-item bg-primary">
-                            <button type="button" class="btn btn-primary" onclick="collapsible(this, 'CBC', 'templateCBC', './view/CBC.js','CB_script')"> 
+                        <li id="2" class="list-group-item bg-light">
+                            <button type="button" class="btn btn-light" onclick="collapsible(this, 'CBC', 'templateCBC', './view/CBC.js','CB_script')"> 
                                 <i class="fa fa-angle-right"></i>
                                 Coastal Blue Carbon
                             </button>
                             <div id="CBC" class="block show-not">
-                                <a class="text-white text-decoration-none" href="#TQ">Tổng quan</a><br>                               
-                                <a class="text-white text-decoration-none" href="#Algorithms">Mô hình toán học</a><br>                      
-                                <a class="text-white text-decoration-none" href="#Step">Các bước thực hiện</a>
+                                <a class="text-dark text-decoration-none" href="#TQ">Tổng quan</a><br>                               
+                                <a class="text-dark text-decoration-none" href="#Algorithms">Mô hình toán học</a><br>                      
+                                <a class="text-dark text-decoration-none" href="#Step">Các bước thực hiện</a>
                             </div>
                         </li>
-                        <li class="list-group-item bg-primary">
-                            <button type="button" class="btn btn-primary" onclick="collapsible(this, 'HRA')">
+                        <li id="3" class="list-group-item bg-light">
+                            <button type="button" class="btn btn-light" onclick="collapsible(this, 'HRA', 'templateHRA', './view/HRA.js', 'HRA_script')">
                                 <i class="fa fa-angle-right"></i>
                                 Habitat risk assessment
                             </button>
                             <div id="HRA" class="block show-not">
-                                <a class="text-white text-decoration-none" href="#">Tổng quan</a>
+                                <a class="text-dark text-decoration-none" href="#">Tổng quan</a>
                                 <br>
-                                <a class="text-white text-decoration-none" href="#">Thuật toán mô hình</a>
+                                <a class="text-dark text-decoration-none" href="#">Thuật toán mô hình</a>
                                 <br>
-                                <a class="text-white text-decoration-none" href="#">Các bước thực hiện</a>
+                                <a class="text-dark text-decoration-none" href="#">Các bước thực hiện</a>
                             </div>
                         </li>
-                        <li class="list-group-item bg-primary">
-                            <button type="button" class="btn btn-primary" onclick="collapsible(this, 'HQ')">
+                        <li id="4" class="list-group-item bg-light">
+                            <button type="button" class="btn btn-light" onclick="collapsible(this, 'HQ', 'templateHQ', './view/HQ.js','HQ_script')">
                                 <i class="fa fa-angle-right"></i>
                                 Habitat quality
                             </button>
                             <div id="HQ" class="block show-not">
-                                <a href="#" class="text-white text-decoration-none">Tổng quan</a><br>
-                                <a href="#" class="text-white text-decoration-none">Thuật toán mô hình</a><br>
-                                <a href="#" class="text-white text-decoration-none">Các bước thực hiện</a><br>
+                                <a href="#" class="text-dark text-decoration-none">Tổng quan</a><br>
+                                <a href="#" class="text-dark text-decoration-none">Thuật toán mô hình</a><br>
+                                <a href="#" class="text-dark text-decoration-none">Các bước thực hiện</a><br>
+                            </div>
+                        </li>
+                        <li id="5" class="list-group-item bg-light">
+                            <button type="button" class="btn btn-light" onclick="collapsible(this, 'MM', 'templateMM', './view/MM.js', 'MM_script')">
+                                <i class="fa fa-angle-right"></i>
+                                Maxent model
+                            </button>
+                            <div id="MM" class="block show-not">
+                                <a href="#" class="text-dark text-decoration-none">Tổng quan</a><br>
+                                <a href="#" class="text-dark text-decoration-none">Thuật toán mô hình</a><br>
+                                <a href="#" class="text-dark text-decoration-none">Các bước thực hiện</a><br>
                             </div>
                         </li>
                     </ul> 

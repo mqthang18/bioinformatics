@@ -11,22 +11,30 @@ var templateCBC = `
                                         <b>Tính kết nối sinh cảnh</b>
                                     </a>
                                 </div>
-                                <div id="connectivity" class="collapse  p-2" data-bs-parent="#accordion">
-                                    <span class="text-justify">Kết nối sinh thái là sự kết nối của các sinh cảnh ở các quy mô khác nhau. Sự kết nối sinh thái có liên quan đến mối quan hệ dinh dưỡng, xáo trộn, chất dinh dưỡng và dòng sinh thái thủy văn (M E. Soule 2006). Việc duy trì kết nối sinh thái sẽ góp phần bảo vệ đa dạng sinh học.</span>
+                                <div id="connectivity" class="collapse" data-bs-parent="#accordion">
+                                    <div class="card-body">
+                                        <span class="text-justify">Kết nối sinh thái là sự kết nối của các sinh cảnh ở các quy mô khác nhau. Sự kết nối sinh thái có liên quan đến mối quan hệ dinh dưỡng, xáo trộn, chất dinh dưỡng và dòng sinh thái thủy văn (M E. Soule 2006). Việc duy trì kết nối sinh thái sẽ góp phần bảo vệ đa dạng sinh học.</span>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+                        <div id="accordion">
                             <div class="card mt-2">
                                 <div class="card-header">
                                     <a href="#CB" class="btn" data-bs-toggle="collapse">
                                         <b>Carbon xanh và tầm quan trọng</b>
                                     </a>
                                 </div>
-                                <div id="CB" class="collapse p-2" data-bs-parent="#accordion">
-                                    <span class="text-justify">Carbon xanh (blue carbon, BC) là carbon được lưu trữ trong rừng ngập mặn, đầm lầy thủy triều mặn và đồng cỏ biển trong đất, sinh khối sống trên mặt đất (lá, cành, thân), sinh khối sống dưới mặt đất (rễ) và sinh khối không sống (ví dụ: rác và gỗ chết) (Elizabeth Mcleod et al. 2011). Do vậy, BC có thể chỉ thị cho sinh khối, sự phát triển của rừng ngập mặn.</span> 
+                                <div id="CB" class="collapse" data-bs-parent="#accordion">
+                                    <div class="card-body">
+                                        <span class="text-justify">Carbon xanh (blue carbon, BC) là carbon được lưu trữ trong rừng ngập mặn, đầm lầy thủy triều mặn và đồng cỏ biển trong đất, sinh khối sống trên mặt đất (lá, cành, thân), sinh khối sống dưới mặt đất (rễ) và sinh khối không sống (ví dụ: rác và gỗ chết) (Elizabeth Mcleod et al. 2011). Do vậy, BC có thể chỉ thị cho sinh khối, sự phát triển của rừng ngập mặn.</span> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
         
                     <div id="Algorithms">
                         <h4 class="mt-4">Mô hình toán học Coastal Blue Carbon, InVEST</h4>
@@ -96,7 +104,7 @@ var templateCBC = `
                                         <b>Carbon accumulation</b>
                                     </a>
                                 </div>
-                                <div id="CA" class="collapse  p-1" data-bs-parent="#accordion">
+                                <div id="CA" class="collapse p-4" data-bs-parent="#accordion">
                                     <span class="text-justify">
                                         Sự tích tụ mô hình này giống như tỷ lệ cacbon được giữ lại trong đất ở dạng hữu cơ sau năm đầu tiên phân hủy. Liên quan đến ngân sách hệ sinh thái hàng năm, nhóm này chưa được tái tập trung, vì vậy nó thể hiện tích lũy ròng.
                                         <br>
@@ -115,7 +123,7 @@ var templateCBC = `
                                         <b>Carbon emissions</b>
                                     </a>
                                 </div>
-                                <div id="CE" class="collapse p-1" data-bs-parent="#accordion">
+                                <div id="CE" class="collapse p-4" data-bs-parent="#accordion">
                                     <span class="text-justify">
                                         <center>
                                             <img class="image-fluid" alt="formula-26" src="./assets/img/formula/CE1.png"></img>
