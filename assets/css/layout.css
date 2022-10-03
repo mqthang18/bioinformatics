@@ -37,9 +37,9 @@
     display: fixed;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     img {
         width: 60vw;
         height: 10vw;
     }    
-}
+} */

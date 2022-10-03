@@ -11,7 +11,7 @@ templateHRA = `
         <div id="problem" data-bs-parent="#accordion" class="collapse p-4">
             Đánh giá rủi ro sinh cảnh rừng ngập mặn, nhân tố được xác định là xói mòn sạc lở
             <center>
-                <img src="./assets/img/AOI.png" alt="AOI" class="w-50">
+                <img src="./assets/img/AOI.png" alt="AOI" class="map">
             </center>
         </div>
     </div>
@@ -24,17 +24,17 @@ templateHRA = `
         </div>
         <div id="step1" data-bs-parent="#accordion" class="collapse p-4">
             <center>
-                <img src="./assets/img/LULCmap_CG.png" alt="LULCmap_CG" class="w-50">
+                <img src="./assets/img/LULCmap_CG.png" alt="LULCmap_CG" class="map">
             </center>
             Từ bản đồ lớp phủ tiến hành tạo lớp phủ rừng ngập mặn bằng cách trích lớp chỉ số 15 từ bản đồ gốc, và các bản đồ đều phải chuyển về hệ quy chiếu theo đơn vị mét. 
             <br>
             Dữ liệu phỏng vấn được lượng hóa theo các chỉ tiêu để được bản dữ liệu mô tả nhân tố, mức độ tác động, nguồn tác động …
             <center>
-                <img class="w-50" src="./assets/img/InVEST/habitat_stressor_info.png" alt="habitat_stressor_info">
+                <img class="formular table" src="./assets/img/InVEST/habitat_stressor_info.png" alt="habitat_stressor_info">
             </center>
             Dữ liệu phỏng vấn được lượng hóa theo các chỉ tiêu để được bản dữ liệu mô tả các đặc điểm của sinh cảnh và trạng thái của các nhân tố gây stress sinh cảnh
             <center>
-                <img class="w-50" src="./assets/img/expose_consequence_criteria.jpg" alt="expose_consequence_criteria">
+                <img class="table" src="./assets/img/expose_consequence_criteria.jpg" alt="expose_consequence_criteria">
             </center>
         </div>
     </div>
@@ -45,7 +45,7 @@ templateHRA = `
         </div>
         <div id="step2" data-bs-parent="#accordion" class="collapse p-4">
             <center>
-                <img src="./assets/img/folder_structure.png" alt="folder_structure">
+                <img class="table map" src="./assets/img/folder_structure.png" alt="folder_structure">
             </center>
             <ul>
                 <li>Thư mục habitat_layers chứa các layer mô tả vị trí phân bố của sinh cảnh, hệ quy chiếu VN2000.</li>
@@ -63,7 +63,7 @@ templateHRA = `
         </div>
         <div id="step3" data-bs-parent="#accordion" class="collapse p-4">
             <center>
-                <img src="./assets/img/InVEST/HRAopen.png" alt="HRAopen">
+                <img src="./assets/img/InVEST/HRAopen.png" alt="HRAopen" class="table">
             </center>
         </div>
     </div>
@@ -74,7 +74,7 @@ templateHRA = `
         </div>
         <div id="step4" data-bs-parent="#accordion" class="collapse p-4">
             <center>
-                <img src="./assets//img/InVEST/EnterDataToHRA.png" alt="EnterDataToHRA">
+                <img class="table" src="./assets//img/InVEST/EnterDataToHRA.png" alt="EnterDataToHRA">
             </center>
         </div>
     </div>
@@ -85,7 +85,7 @@ templateHRA = `
         </div>
         <div id="step5" data-bs-parent="#accordion" class="collapse p-4">
             <center>
-                <img src="./assets/img/InVEST/HRAprocess.png" alt="HRAprocess" class="w-50">
+                <img src="./assets/img/InVEST/HRAprocess.png" alt="HRAprocess" class="table">
             </center>
         </div>
     </div>
@@ -96,7 +96,7 @@ templateHRA = `
         </div>
         <div id="step6" data-bs-parent="#accordion" class="collapse p-4">
             <center>
-                <img src="./assets/img/InVEST/HRAoutput.png" alt="HRAoutput" class="w-50">
+                <img src="./assets/img/InVEST/HRAoutput.png" alt="HRAoutput" class="table">
             </center>
         </div>
     </div>
@@ -107,13 +107,13 @@ templateHRA = `
         </div>
         <div id="step7" data-bs-parent="#accordion" class="collapse p-4">
             <center>
-                <img src="./assets/img/InVEST/HRAoutput.png" alt="HRAoutput" class="w-50">
+                <img src="./assets/img/InVEST/HRAoutput.png" alt="HRAoutput" class="map">
             </center>
             <center>
-                <img class="w-50" src="./assets/img/InVEST/HRAoutput1.png" alt="HRAoutput1">
+                <img class="map" src="./assets/img/InVEST/HRAoutput1.png" alt="HRAoutput1">
             </center>
             <center>
-                <img class="w-50" src="./assets/img/InVEST/HRAoutput2.png" alt="HRAoutput2">
+                <img class="map" src="./assets/img/InVEST/HRAoutput2.png" alt="HRAoutput2">
             </center>
         </div>
     </div>

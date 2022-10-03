@@ -51,7 +51,7 @@ var templateCBC = `
                    
                                             <b>Giả sử carbon lưu trữ cân bằng tại một thời điểm bất kì. <br></b>
                                             Khi đó carbon lưu trữ tại năm t trong bể p được tính theo công thức: <br>
-                                            <center><img class="image-fluid" alt="formula-22" src="./assets/img/formula/CS1.png"></img><span id="f22">(22)</span></center> 
+                                            <center><img class="table formular" alt="formula-22" src="./assets/img/formula/CS1.png"></img><span id="f22">(22)</span></center> 
                                             <br>
                                             Trong đó: 
                                             <ul>
@@ -62,7 +62,7 @@ var templateCBC = `
                                             N<sub>p,t</sub> trong phương trình <a href="#f22">(22)</a>, được tính theo công thức:
                                             <br>
                                             <center>
-                                                <img class="image-fluid" alt="formula-23" src="./assets/img/formula/CS2.png"></img>
+                                                <img class="table formular" alt="formula-23" src="./assets/img/formula/CS2.png"></img>
                                                 <span id="f23">(23)</span>
                                             </center>
                                             Trong đó:
@@ -78,7 +78,7 @@ var templateCBC = `
                                             <br>
                                             Vì vậy, tích lũy vật chất rơi rụng chỉ tích lũy theo tỷ lệ do người sử dụng quy định trong bảng lý sinh.
                                             <center>
-                                                <img class="image-fluid" id="formula-24" src="./assets/img/formula/CS4.png"></img>
+                                                <img class="table formular" id="formula-24" src="./assets/img/formula/CS4.png"></img>
                                                 <span id="f24">(24)</span>
                                             </center>
                                             Do đó, sự cô lập ròng cho bể vật chất rơi rụng, N<sub>plitter,t</sub> thì tương đương A<sub>plitter</sub>, đã được xác định bởi người dùng trong bảng sinh lý.
@@ -86,7 +86,7 @@ var templateCBC = `
                                             <br>
                                             Mô hình cũng tính toán tổng lượng dự trữ cho mỗi bước thời gian trong năm t, đơn giản là tổng của tất cả các trữ lượng carbon trong cả 3 nhóm:
                                             <center>
-                                                <img class="image-fluid" alt="formula-25" src="./assets/img/formula/CS5.png"></img>
+                                                <img class="table formular" alt="formula-25" src="./assets/img/formula/CS5.png"></img>
                                                 <span id="f25">(25)</span>
                                             </center>
                                  
@@ -126,7 +126,7 @@ var templateCBC = `
                                 <div id="CE" class="collapse p-4" data-bs-parent="#accordion">
                                     <span class="text-justify">
                                         <center>
-                                            <img class="image-fluid" alt="formula-26" src="./assets/img/formula/CE1.png"></img>
+                                            <img class="table formular" alt="formula-26" src="./assets/img/formula/CE1.png"></img>
                                             <span id="f26">(26)</span>
                                         </center>
                                         <br>
@@ -179,7 +179,7 @@ var templateCBC = `
                                     <div class="card">
                                         <div class="card-header">
                                             <a href="#biomassdata" class="btn" data-bs-toggle="collapse">
-                                                <b>Dữ liệu sinh khối</b>
+                                                <b>Dữ liệu Carbon</b>
                                             </a>
                                         </div>
                                         <div id="biomassdata" class="collapse" data-bs-parent="#accordion">
@@ -234,7 +234,7 @@ var templateCBC = `
                                                                 <b>Mẫu gỗ có đường kính 2.5 cm - 7.5 cm</b>
                                                                 <br>
                                                                 <center>
-                                                                    <img src="./assets/img/formula/ThuDuLieu1.png" alt="CstorageInLitter">
+                                                                    <img class="formular"src="./assets/img/formula/ThuDuLieu1.png" alt="CstorageInLitter">
                                                                     (J Boone Kauffman & Daniel C Donato 2012)
                                                                 </center>
                                                                 <br>
@@ -250,7 +250,7 @@ var templateCBC = `
                                                                 <b>Mẫu gỗ có đường kính > 7.5 cm</b>
                                                                 <br>
                                                                 <center>
-                                                                    <img src="./assets/img/formula/ThuDuLieu2.png" alt="CSstorageLitter">
+                                                                    <img class="formular" src="./assets/img/formula/ThuDuLieu2.png" alt="CSstorageLitter">
                                                                     (J Boone Kauffman & Daniel C Donato 2012)
                                                                 </center>
                                                                 Trong đó: 
@@ -265,7 +265,7 @@ var templateCBC = `
                                                                     </li>
                                                                 </ul>
                                                                 <center>
-                                                                    <img class="w-50" src="./assets/img/formula/DataTable.png" alt="TyTrong">
+                                                                    <img class="table" src="./assets/img/formula/DataTable.png" alt="TyTrong">
                                                                 </center>
                                                             </li>   
                                                         </ul>
@@ -306,7 +306,7 @@ var templateCBC = `
                                     <span class="text-justify">
                                         Các dữ liệu cần có cho mô hình: 
                                         <center>
-                                            <img src="./assets/img/InVEST/FilesforCBC.jpg" alt="CBCinterface">
+                                            <img class="table" src="./assets/img/InVEST/FilesforCBC.jpg" alt="CBCinterface">
                                         </center>
                                         <br>
                                         Trong đó:
@@ -367,7 +367,7 @@ var templateCBC = `
                                             <div class="collapse" id="lulc_lookup">
                                                 <div class="card card-body mb-3">
                                                     <center>
-                                                        <img src="./assets/img/InVEST/lulc_lookup.png" alt="lulc_lookup_img">
+                                                        <img class="table" src="./assets/img/InVEST/lulc_lookup.png" alt="lulc_lookup_img">
                                                     </center>
                                                     <br>
                                                     Bảng lulc_lookup sử dụng "TRUE" để chỉ ra lớp phủ là sinh cảnh hoặc là lớp phủ muốn chạy tính toán chỉ số blue carbon. 
@@ -382,7 +382,7 @@ var templateCBC = `
                                             <div class="collapse" id="transient_template">
                                                 <div class="card card-body mb-3">
                                                     <center>
-                                                        <img src="./assets/img/InVEST/biophysical.jpg" alt="biophysical">
+                                                        <img class="table" src="./assets/img/InVEST/biophysical.jpg" alt="biophysical">
                                                     </center>
                                                     <p>Số liệu được thu từ thực nghiệm hoặc tham khảo từ các bài báo khoa học được công bố</p>
                                                 </div>
@@ -396,7 +396,7 @@ var templateCBC = `
                                             <div class="collapse" id="transions_out">
                                                 <div class="card card-body mb-3">
                                                     <center>
-                                                        <img src="./assets/img/InVEST/transitions_out.jpg" alt="">
+                                                        <img class="table" src="./assets/img/InVEST/transitions_out.jpg" alt="">
                                                     </center>
                                                     <p class="mt-2">
                                                         Sử dụng công cụ <img src="./assets/img/InVEST/CBCpreprocessor.png" alt="cbcpreprocessor" style="width: 200px; height: 30px;"> để tiến hành tạo bảng transitions_out
