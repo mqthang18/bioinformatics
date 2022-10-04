@@ -53,6 +53,8 @@ templateMM = `
                 <center>
                     <img src="./assets/img/maxent/file_asc.png" alt="file_asc" class="map">
                 </center>
+
+                Dữ liệu ngoại cảnh được download từ trang <a href="https://climateknowledgeportal.worldbank.org/country/vietnam/climate-data-historical" target="_blank">Link</a>
             </div>
         </div>
     </div>
@@ -86,6 +88,9 @@ templateMM = `
                 Kết quả được trình bày chi tiết trong file ".html"
                 <center>
                     <img src="./assets/img/maxent/maxent_result.png" alt="maxent_result" class="map">
+                </center>
+                <center>
+                <img src="./assets/img/maxent/result.jpeg" alt="result" class="map maxent-result">
                 </center>
             </div>
         </div>
