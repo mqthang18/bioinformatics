@@ -93,6 +93,30 @@ function pourData(dataAPI = null) {
             el: "#topic",
             template: `<div id="change">
                             Ứng dụng mô hình InVEST trong dự án Cần Giờ liên quan đến tính kết nối sinh cảnh với mô hình đánh giá chất lượng sinh cảnh, đánh giá rủi ro. 
+                            <br><br>
+                            <p>Install Invest: Powerpoint - <a href="https://docs.google.com/presentation/d/1ilIIs136wxks4T9eX9Fzkhu72hSowLqw/edit?usp=sharing&ouid=109658153567321835773&rtpof=true&sd=true" target="_blank" class="text-decoration-none">Link</a>; Word - <a href="https://docs.google.com/document/d/1qOdQIAB3dMCbBl5gyszix447GutrGSPa/edit?usp=sharing&ouid=109658153567321835773&rtpof=true&sd=true" target="_blank" class="text-decoration-none">Link</a></p>
+
+                            <p>
+                                Coastal Blue Carbon: powerpoint - <a href="https://docs.google.com/document/d/1aByXylT7odq4dJWMIdZGHA_FpUUEY9IL/edit?usp=sharing&ouid=109658153567321835773&rtpof=true&sd=true" target="_blank" class="text-decoration-none">Link</a>;
+                                Word - <a href="https://docs.google.com/presentation/d/1PEff82es5QNjZlIpYVyQ0ePYYsOrxLMaiY65TBfddhs/edit?usp=sharing" target="_blank" class="text-decoration-none">Link</a>
+                            </p>
+
+                            <p>
+                                Habitat Quality: 
+
+                                Powerpoint - <a href="https://docs.google.com/presentation/d/1cwlQ6YeW9GoBAs6TLElYgFi1jXDeEoUX/edit?usp=sharing&ouid=109658153567321835773&rtpof=true&sd=true" target="_blank" class="text-decoration-none">Link</a>;
+                                Word - <a href="https://docs.google.com/document/d/1QZKqyGxJSuH1LROKgeU5Oj791jGNnPFK/edit?usp=sharing&ouid=109658153567321835773&rtpof=true&sd=true" target="_blank" class="text-decoration-none">Link</a>
+                            </p>
+
+                            <p>
+                                Habitat Risk Assessment:
+                                Powerpoint - <a href="https://docs.google.com/presentation/d/1_c9KwDPwm2zRZsgHwqb5JofdkpG8-xoG/edit?usp=sharing&ouid=109658153567321835773&rtpof=true&sd=true" target="_blank" class="text-decoration-none">Link</a>; Word - <a href="https://docs.google.com/document/d/1fwfk14M1_Rj0wd0GLSWejYhEMDaKKz5S/edit?usp=sharing&ouid=109658153567321835773&rtpof=true&sd=true" target="_blank" class="text-decoration-none">Link</a>
+                            </p>
+
+                            <p>
+                                Maxent model: 
+                                Powerpoint - <a href="https://docs.google.com/presentation/d/1z0xA6ijfxbyc6ZupvcO11zhjdgg3SAJJtvTYAXAIb4w/edit?usp=sharing" target="_blank" class="text-decoration-none">Link</a>; Word - <a href="https://docs.google.com/document/d/1IkuiytjrsXBbwt_xz_7MxDOIa_y5lOhMNJMLHdcP7QM/edit?usp=sharing" target="_blank" class="text-decoration-none">Link</a>
+                            </p>
                         </div>`,
             methods: {
                 ReturnID() {
