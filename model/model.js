@@ -94,6 +94,7 @@ function pourData(dataAPI = null) {
             template: `<div id="change">
                             Ứng dụng mô hình InVEST trong dự án Cần Giờ liên quan đến tính kết nối sinh cảnh với mô hình đánh giá chất lượng sinh cảnh, đánh giá rủi ro. 
                             <br><br>
+                            <p>Thư mục dữ liệu: <a href="https://drive.google.com/drive/folders/1wVZ2_OpE74yDw1VqBUVMP_RKPm7peC0s?usp=sharing" target="_blank">Link</a></p>
                             <p>Install Invest: Powerpoint - <a href="https://docs.google.com/presentation/d/1ilIIs136wxks4T9eX9Fzkhu72hSowLqw/edit?usp=sharing&ouid=109658153567321835773&rtpof=true&sd=true" target="_blank" class="text-decoration-none">Link</a>; Word - <a href="https://docs.google.com/document/d/1qOdQIAB3dMCbBl5gyszix447GutrGSPa/edit?usp=sharing&ouid=109658153567321835773&rtpof=true&sd=true" target="_blank" class="text-decoration-none">Link</a></p>
 
                             <p>
